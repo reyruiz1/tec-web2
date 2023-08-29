@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Responsiva con Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    .bg-header {
+      background-image: url(paisa.jpg); /* Sin comillas alrededor de la URL */
+      background-size: cover;
+      background-position: center;
+      padding: 150px 0; /* Ajusta el espaciado del contenido */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header con Imagen de Fondo -->
+<header class="bg-header text-white text-center">
+  <h1>TEC WEB</h1>
+  <h2>Ingenieria de sistemas</h2>
+</header>
+
+<!-- Contenido Principal - Fila de Tres Columnas -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>
+        HTML
+      </h1>
+      <p>
+        Es un lenguaje de marcado esencial para la creación de páginas web. Define la estructura y contenido de una página mediante etiquetas
+         que indican cómo mostrar elementos como texto, imágenes y enlaces.
+    </p>
+    </div>
+    <div class="col-md-4">
+        <h1>
+            CSS
+          </h1>
+          <p>
+            Es un lenguaje de diseño utilizado en desarrollo web para dar estilo y formato a las páginas, controlando la apariencia de elementos
+             como colores, fuentes, márgenes y disposición.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h1>
+            JS
+          </h1>
+          <p>
+            Es un lenguaje de programación utilizado principalmente en el desarrollo web para agregar interactividad y dinamismo a las páginas.
+             Permite crear efectos visuales, validar formularios, realizar acciones en respuesta a eventos y más, todo en el navegador del usuario.
+        </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2023 REYRUIZ. Todos los derechos reservados.
+</footer>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
